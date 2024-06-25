@@ -1,0 +1,118 @@
+.contact-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-image: linear-gradient(45deg, white ,#3D72A4 );
+    z-index: -1;
+}
+.contact-layout h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin:0;
+    margin-bottom: 50px;
+    /* padding: 70px 0 0 0 ; */
+}
+.contact-layout h1:hover{
+    font-size: 60px;
+    color: #3D72A4;
+}
+.contact-layout h4{
+    color: rgba(0, 0, 0, 0.747);
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.contact-layout span{
+    color: #3D72A4;
+    font-size: 25px;
+    padding: 10px 10px 0 0;
+}
+.contact-layout .contact-details{
+    width: 40%;
+    justify-content: start;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+.contact-details #logo{
+    margin:50px 0;
+}
+.contact-details #logo a{
+    color: black;
+    text-decoration: none;
+    margin:0px 5px;
+    font-size: 40px;
+}
+.contact-details #logo a:hover{
+    color: #3D72A4;
+}
+.contact-layout .contact-main-form{
+    width:60%;
+    margin: 100px 0px;
+}
+.contact-layout .contact-main-form .contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.contact-form input{
+    margin: 10px;
+    padding: 15px;
+    width: 60%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.contact-form textarea{
+    margin: 10px;
+    padding: 15px;
+    width: 60%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.contact-form .btn{
+    margin: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #3D72A4;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+}
+.contact-form .btn:hover{
+    color: #3D72A4;
+    background-color: white;
+    border: 2px solid #3D72A4;
+}
+@media(max-width:900px){
+    .contact-layout{
+        flex-direction: column;
+    }
+    .contact-layout .contact-details{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+    .contact-layout .contact-main-form{
+        width: 100%;
+        justify-content: start;
+        margin: 0;
+    }
+    .contact-form input{
+        width: 80%;
+        
+    }
+    .contact-form textarea{
+        width: 80%;
+    }
+    .contact-form .btn{
+        margin-bottom: 50px;
+    }
+}

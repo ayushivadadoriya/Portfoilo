@@ -1,0 +1,61 @@
+.exp-layout{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, white ,#3D72A4 );
+    scrollbar-width: none;
+    margin: 0;
+}
+.exp-layout h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin:0;
+    padding: 70px 0 0 0;
+}
+.exp-layout h1:hover{
+    font-size: 60px;
+    color: #3D72A4;
+}
+.exp{
+    margin: 50px;
+}
+.exp-card{
+    background-color: white;
+    margin: 30px;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+.exp-card h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #3D72A4;
+    border-radius: 50px;
+    color: white;
+}
+.exp-card h3{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.exp-card h4{
+    margin: 10px;
+    font-size: 22px;
+}
+.exp-card p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.555);
+}
+@media(max-width:900px){
+    .exp-layout{
+        padding: 20px 0;
+        height: auto;
+    }
+    .exp-card h2{
+        border-radius: 30px;
+    }
+}

@@ -2,7 +2,7 @@ nav{
     display: flex;
     position:fixed;
     margin: 0;
-    width: 100%;
+    width: 100vw;
     /* height: 40px; */
     color: black;
     z-index: 1;
